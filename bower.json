@@ -1,0 +1,13 @@
+{
+  "name": "directives",
+  "description": "Directive's $scope",
+  "main": "index.js",
+  "authors": [
+    "FearDark"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/morelos1904/Directives",
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
