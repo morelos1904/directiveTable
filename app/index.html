@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <script src="../bower_components/angular/angular.js"></script>
-<body >
- <h4 id="sweet_header" style="background-color:red">Hola</h4>
- <div >
-	<p>Parrafo 1sss</p>
-	<p>Parrafo 2deder</p>
-	<p>Parrafo 3</p>
- </div>
-	<a href="pr/index.html">Click</a>
+<script src="js/items-controllers.js"></script>
+<script src="js/Directives/models-table-directive.js"></script>
+
+<body ng-app="app">
+
+	<p ng-controller="ItemsController">
+		<!-- 	We are passing two attributes whith their respectives values through 
+				the directive tag
+				One of these attributes is 'models' with the items which were stablished in 
+				the controller.
+				And the another is columns -->
+		<models-table models="items" columns="name,color,price"></models-table>
+	</p>
+asdasd
 </body>
 
 </html>
